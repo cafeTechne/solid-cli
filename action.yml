@@ -12,6 +12,10 @@ inputs:
     description: 'OIDC DPoP token for authentication'
     required: true
 
+branding:
+  icon: 'package'
+  color: 'blue'
+
 runs:
   using: 'composite'
   steps:

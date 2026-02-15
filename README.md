@@ -11,7 +11,7 @@
 
 ## Performance: Real Benchmark Results
 
-![Real Benchmark](https://raw.githubusercontent.com/cafeTechne/solid-cli/master/real_benchmark.svg)
+![Real Benchmark](https://raw.githubusercontent.com/cafeTechne/solid-cli/master/benchmark.png)
 
 **Actual test:** 62 files (3.03 MB) synced using parallel async I/O with bounded semaphores.
 
@@ -19,7 +19,7 @@
 
 ## Live Demonstration
 
-![Live Demo](https://raw.githubusercontent.com/cafeTechne/solid-cli/master/demo_actual_sync.svg)
+![Live Demo](https://raw.githubusercontent.com/cafeTechne/solid-cli/master/demo_sync.png)
 
 Real file synchronization showing the tool scanning directories, uploading files, and generating provenance metadata.
 
