@@ -6,3 +6,5 @@ textual>=0.30.0
 libtmux>=0.30.0
 pyfiglet>=0.8.0
 pydantic>=2.0.0
+watchdog>=3.0.0
+fusepy>=1.0.0

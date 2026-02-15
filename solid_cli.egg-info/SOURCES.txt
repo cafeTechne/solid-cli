@@ -2,9 +2,12 @@ README.md
 pyproject.toml
 solid_cli/__init__.py
 solid_cli/acl.py
+solid_cli/agent.py
 solid_cli/auth.py
 solid_cli/client.py
 solid_cli/main.py
+solid_cli/mount.py
+solid_cli/reasoner.py
 solid_cli/sync.py
 solid_cli/theme.py
 solid_cli/tmux.py
@@ -16,8 +19,11 @@ solid_cli.egg-info/entry_points.txt
 solid_cli.egg-info/requires.txt
 solid_cli.egg-info/top_level.txt
 tests/test_acl.py
+tests/test_agent.py
 tests/test_auth.py
 tests/test_cli.py
 tests/test_client.py
+tests/test_mount.py
+tests/test_reasoner.py
 tests/test_sync.py
 tests/test_tui.py
