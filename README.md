@@ -54,8 +54,24 @@ solid mount S: https://my.pod/
 ---
 
 ## Technical Details
+
+### Test Coverage (86% overall)
+*   **Core Logic (100% tested):**
+    - `reasoner.py`: N3Logic inference engine
+    - `auth.py`: OIDC authentication
+    - `client.py`: HTTP client with retry logic
+*   **Well-tested (85-95%):**
+    - `sync.py`: Parallel async upload/download
+    - `verify.py`: Integrity checking and audit reports
+    - `mount.py`: FUSE filesystem driver (89%)
+*   **Partially tested (70-85%):**
+    - `tui.py`: Textual dashboard (platform-specific UI interactions)
+    - `main.py`: CLI entry points (some error paths untested)
+
+**Untested areas:** OS-specific error handling (e.g., WinFsp not installed), edge cases in interactive TUI prompts.
+
+### Test Suite
 *   **Tests:** 166 passed, 1 skipped
-*   **Coverage:** 86%
 *   **License:** MIT
 *   **Repository:** [cafeTechne/solid-cli](https://github.com/cafeTechne/solid-cli)
 
