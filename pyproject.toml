@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "solid-cli"
+version = "0.1.0"
+description = "High-performance synchronization and management tool for Solid Pods"
+requires-python = ">=3.11"
+dependencies = [
+    "typer[all]>=0.9.0",
+    "httpx>=0.24.0",
+    "rdflib>=7.0.0",
+    "rich>=13.0.0",
+    "textual>=0.30.0",
+    "libtmux>=0.30.0",
+    "pyfiglet>=0.8.0",
+    "pydantic>=2.0.0",
+    "watchdog>=3.0.0",
+    "fusepy>=1.0.0",
+]
+
+[project.scripts]
+solid = "solid_cli.main:app"
+
+[dependency-groups]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.21.0",
+    "black>=23.0.0",
+    "ruff>=0.1.0",
+    "respx>=0.20.0",
+    "textual-serve>=0.1.0",
+]

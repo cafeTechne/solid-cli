@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: solid-cli
+Version: 0.1.0
+Summary: High-performance synchronization and management tool for Solid Pods
+Requires-Python: >=3.11
+Requires-Dist: typer[all]>=0.9.0
+Requires-Dist: httpx>=0.24.0
+Requires-Dist: rdflib>=7.0.0
+Requires-Dist: rich>=13.0.0
+Requires-Dist: textual>=0.30.0
+Requires-Dist: libtmux>=0.30.0
+Requires-Dist: pyfiglet>=0.8.0
+Requires-Dist: pydantic>=2.0.0

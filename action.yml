@@ -1,0 +1,32 @@
+name: 'Solid Sync'
+description: 'Synchronize local directory to Solid Pod'
+
+inputs:
+  local_dir:
+    description: 'Local directory to sync'
+    required: true
+  remote_url:
+    description: 'Remote Solid Pod URL'
+    required: true
+  webid_token:
+    description: 'OIDC DPoP token for authentication'
+    required: true
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Install solid-cli
+      shell: bash
+      run: |
+        cd ${{ github.action_path }}
+        pip install .
+    
+    - name: Run Solid Sync
+      shell: bash
+      run: |
+        solid sync "${{ inputs.local_dir }}" "${{ inputs.remote_url }}" --token "${{ inputs.webid_token }}"
