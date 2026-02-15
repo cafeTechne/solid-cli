@@ -52,7 +52,7 @@ Access your Decentralized Pod as if it were a USB Drive.
 ### 3. "Turbo" Parallel Sync
 - **Outcome:** **6x Speedup** over standard linear uploaders.
 - **Tech:** Uses `asyncio.gather` with bounded Semaphores to saturate the network without crashing the server.
-- **Benchmark:** Validated at **3.13 MB/s** sustained throughput.
+- **Benchmark:** Validated at **3.03 MB/s** sustained throughput.
 
 ![Turbo Sync Performance Benchmark](https://raw.githubusercontent.com/cafeTechne/solid-cli/master/benchmark.png)
 
