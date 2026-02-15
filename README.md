@@ -65,7 +65,7 @@ solid mount S: https://my.pod/
 ---
 
 ## Documentation
-*   **[Submission Statement](SUBMISSION_DRAFT.md)**: DEV.to submission content and challenge statement
+*   **[Submission Statement](https://dev.to/_cafeTechne_/solid-cli-a-privacy-preserving-agent-for-the-decentralized-web-5794)**: DEV.to submission content and challenge statement
 *   **[Works Cited](WORKS_CITED.md)**: Research papers backing this implementation
 *   **[Technical Debt](TECHNICAL_DEBT.md)**: Production roadmap and architectural audit
 
