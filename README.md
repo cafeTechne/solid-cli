@@ -45,7 +45,7 @@ docker run --rm -it cafeTechne/solid-cli sync ./data https://my.pod/data
 
 ### Performance & Benchmarks
 
-![Turbo Sync Performance Benchmark](https://raw.githubusercontent.com/cafeTechne/solid-cli/master/benchmark.svg)
+![Turbo Sync Performance Benchmark](https://raw.githubusercontent.com/cafeTechne/solid-cli/master/benchmark.png)
 
 `solid-cli` provides a **6x speedup** over traditional linear sync tools by utilizing asynchronous semaphores for parallel network saturation.
 
@@ -53,7 +53,7 @@ docker run --rm -it cafeTechne/solid-cli sync ./data https://my.pod/data
 
 ### Command Line Interface
 
-![Solid-CLI Capabilities](https://raw.githubusercontent.com/cafeTechne/solid-cli/master/cli_help.svg)
+![Solid-CLI Capabilities](https://raw.githubusercontent.com/cafeTechne/solid-cli/master/cli_help.png)
 
 ### Installation (Python 3.11+)
 ```bash

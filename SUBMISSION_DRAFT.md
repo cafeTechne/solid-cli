@@ -3,7 +3,7 @@ title: "Solid-CLI: A Privacy-Preserving Agent for the Decentralized Web"
 published: false
 description: "Bringing N3Logic Reasoning and Universal FUSE Mounting to Solid Pods. A scientific approach to the GitHub Copilot Challenge."
 tags: "githubcopilotchallenge, solid, decentralization, python"
-cover_image: "https://raw.githubusercontent.com/cafeTechne/solid-cli/master/hero_agent.png"
+cover_image: "https://raw.githubusercontent.com/cafeTechne/solid-cli/master/demo_sync.png"
 ---
 
 ## Solid-CLI: The "State of the Art" for Decentralized Data
@@ -54,7 +54,7 @@ Access your Decentralized Pod as if it were a USB Drive.
 - **Tech:** Uses `asyncio.gather` with bounded Semaphores to saturate the network without crashing the server.
 - **Benchmark:** Validated at **3.13 MB/s** sustained throughput.
 
-![Turbo Sync Performance Benchmark](https://raw.githubusercontent.com/cafeTechne/solid-cli/master/benchmark.svg)
+![Turbo Sync Performance Benchmark](https://raw.githubusercontent.com/cafeTechne/solid-cli/master/benchmark.png)
 
 ### 4. Trust Audit (`solid-cli verify`)
 - **Verifiable Identity:** Adopts the **Issuer-Holder-Verifier model ([2201.07034](https://arxiv.org/abs/2201.07034))**.
@@ -96,7 +96,7 @@ solid mount S: https://YOUR_POD/data
 solid verify https://YOUR_POD/data
 ```
 
-![Solid-CLI Capabilities](https://raw.githubusercontent.com/cafeTechne/solid-cli/master/cli_help.svg)
+![Solid-CLI Capabilities](https://raw.githubusercontent.com/cafeTechne/solid-cli/master/cli_help.png)
 
 ---
 
