@@ -14,11 +14,11 @@
 
 ---
 
-## Command Reference
+## Live Demonstration
 
-![CLI Help](real_cli_help.svg)
+![Actual Sync](demo_actual_sync.svg)
 
-Full command documentation showing sync, verify, mount, and monitor capabilities.
+Real file synchronization showing the tool scanning directories, uploading files, and generating provenance metadata.
 
 ---
 
@@ -50,6 +50,7 @@ solid mount S: https://my.pod/
 ## Documentation
 *   **[Submission Paper](SUBMISSION.md)**: Scientific methodology and academic citations
 *   **[Works Cited](WORKS_CITED.md)**: Research papers backing this implementation
+*   **[Technical Debt](TECHNICAL_DEBT.md)**: Production roadmap and architectural audit
 
 ---
 
