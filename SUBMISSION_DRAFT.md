@@ -124,7 +124,9 @@ solid verify https://YOUR_POD/data
 - **Implementation:** (Universal FUSE Mount). By mounting a Pod as a local filesystem, we allow standard 3D tools (Blender, Unity, A-Frame) to access decentralized assets natively. This is a key component of the "Open Metaverse" vision, and I think that future work in this direction will make it clear that Solid pods can help us liberate our data from proprietary data silos.
 
 ### 5. Verifiable Credentials for Healthcare ([2201.07034](https://arxiv.org/abs/2201.07034))
+- **Authors:** Gongjin Lan, et al.
 - **Implementation:** Adopts the Issuer-Holder-Verifier model for trust in sensitive environments.
 
 ### 6. Semantic Search Engine ([1102.0695](https://arxiv.org/abs/1102.0695))
+- **Authors:** Debajyoti Mukhopadhyay, et al.
 - **Implementation:** PKG Extraction generates the RDF metadata necessary for these semantic search engines to function.
