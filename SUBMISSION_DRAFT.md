@@ -19,7 +19,7 @@ Built for the **GitHub Copilot CLI Challenge**, this project aims to advance the
 ---
 
 ## Team Members
-- [@cafeTechne](https://dev.to/cafetechne) (Solo Lead)
+- [@elblanquitolobo](https://dev.to/elblanquitolobo) (Solo Lead)
 
 ## Source Code
 - **GitHub Repository**: [cafeTechne/solid-cli](https://github.com/cafeTechne/solid-cli)
