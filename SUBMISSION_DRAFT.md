@@ -3,7 +3,7 @@ title: "Solid-CLI: A Privacy-Preserving Agent for the Decentralized Web"
 published: false
 description: "Bringing N3Logic Reasoning and Universal FUSE Mounting to Solid Pods. A scientific approach to the GitHub Copilot Challenge."
 tags: "githubcopilotchallenge, solid, decentralization, python"
-cover_image: "https://raw.githubusercontent.com/cafeTechne/solid-cli/master/demo_sync.svg"
+cover_image: "https://raw.githubusercontent.com/cafeTechne/solid-cli/master/hero_agent.png"
 ---
 
 ## Solid-CLI: The "State of the Art" for Decentralized Data
